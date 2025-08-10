@@ -4,6 +4,7 @@ import os
 from argparse import ArgumentParser
 parser=ArgumentParser()
 parser.add_argument('-f','--format',type=int)
+#format 1 is when only fasta is needed, format 2 is when headers need to be renamed after the coding annotation of the gff
 parser.add_argument('-i','--infasta',type=str)
 parser.add_argument('-g','--ingff',type=str)
 parser.add_argument('-o','--output',type=str)
